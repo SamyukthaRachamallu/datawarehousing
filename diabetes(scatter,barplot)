@@ -1,0 +1,7 @@
+set.seed(2)
+diabetes<-read.csv("diabetes.csv",header=TRUE,sep=",")
+x<-c(diabetes $age)
+y<-c(diabetes $count)
+smoothScatter(y~x)
+smoothScatter(x,y)
+barplot(x,y)
